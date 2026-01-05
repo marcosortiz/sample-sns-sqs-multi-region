@@ -88,7 +88,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: sqs-consumer.handler
-      Runtime: ruby3.3
+      Runtime: ruby3.4
       CodeUri: src/lambda
       Timeout: 30
       MemorySize: 512
@@ -130,7 +130,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: sqs-consumer.handler
-      Runtime: ruby3.3
+      Runtime: ruby3.4
       CodeUri: src/lambda
       Timeout: 30
       MemorySize: 512
