@@ -1,0 +1,30 @@
+
+# Test coverage
+coverage/
+.rspec_status
+
+# SimpleCov
+.resultset.json
+.last_run.json
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# SAM build artifacts
+.aws-sam/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
